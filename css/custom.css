@@ -1,5 +1,4 @@
 body {
-body {
 	padding-top: 50px;
 	color: #FFF;
 	background-color: #000;
@@ -15,7 +14,7 @@ a{
 	
 .feature {
 	background-color: yellowgreen;
-	background-image: url("Images/Pazzy.png");
+	background-image: url("Images/PazzyBWWide.png");
 	background-size: 100%;
 	color: white;
 	}
