@@ -1,4 +1,5 @@
 body {
+body {
 	padding-top: 50px;
 	color: #FFF;
 	background-color: #000;
@@ -7,6 +8,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	color: #FFF;
 	}
+a{
+	font-size: medium;
+	color: #FFF;
+}
 	
 .feature {
 	background-color: yellowgreen;
@@ -24,6 +29,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: goldenrod;
     color: black;
 }
+
+article {
+	background-color: #9D1F18;
+	width: 200px;
+	height: 200px;
+	border: none;
+	padding: 50px;
+	margin: 20px;
+  }
     
 .footer-blurb-item {
     padding: 30px;
