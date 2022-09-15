@@ -1,4 +1,5 @@
 body {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	padding-top: 50px;
 	color: #FFF;
 	background-color: #000;
@@ -16,6 +17,7 @@ h3{
 
 a{
 	font-size: 2vh;
+	font-weight: lighter ;
 	color: #FFF;
 }
 
