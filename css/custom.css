@@ -2,25 +2,36 @@ body {
 	padding-top: 50px;
 	color: #FFF;
 	background-color: #000;
+	text-align: center;
 	}
 	
 h1, h2, h3, h4, h5, h6 {
 	color: #FFF;
 	}
+
+
+
+h3{
+	font-size: 10px;
+	text-align:center ;
+}
+
 a{
 	font-size: medium;
 	color: #FFF;
 }
+
 	
 .feature {
+	height: 300px;
 	background-color: yellowgreen;
-	background-image: url("Images/Pazzy.png");
+	background-image: url("Images/PazzyBWWide.png");
 	background-size: 100%;
 	color: white;
 	}
 	
 .article-intro {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .footer-blurb {
@@ -31,11 +42,11 @@ a{
 
 article {
 	background-color: #9D1F18;
-	width: 25%;
-	height: 150px;
-	border: none;
+	width: 33%;
+	border: 20px solid black;
 	padding: 50px;
-	margin: 20px;
+	margin: 0px;
+	display: flex;
   }
     
 .footer-blurb-item {
