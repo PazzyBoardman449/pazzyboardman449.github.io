@@ -10,12 +10,12 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 h3{
-	font-size: 10px;
+	font-size: 1vw;
 	text-align:center ;
 }
 
 a{
-	font-size: 5vh;
+	font-size: 3vh;
 	color: #FFF;
 }
 
