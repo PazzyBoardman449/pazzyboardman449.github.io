@@ -42,7 +42,8 @@ a{
 
 article {
 	background-color: #9D1F18;
-	width: 33%;
+	height: 33vw;
+	width: 33vw;
 	border: 20px solid black;
 	padding: 50px;
 	margin: 0px;
