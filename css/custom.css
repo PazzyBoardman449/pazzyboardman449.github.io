@@ -34,7 +34,6 @@ a:hover{
 }
 
 
-
 .feature {
 	height: 500px;
 	background-color: yellowgreen;
@@ -94,6 +93,21 @@ article:hover{
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 50%;
+}
+
+.navbar{
+	margin: auto;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+.navbar a{
+	float: none;
+	color: white;
+	font-size: 14px;
+	text-align: center;
 }
 
 .footer-blurb-item {
