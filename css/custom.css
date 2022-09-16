@@ -28,7 +28,8 @@ a:hover{
 	text-decoration: none;
 }
 
-	
+
+
 .feature {
 	height: 500px;
 	background-color: yellowgreen;
@@ -75,13 +76,21 @@ article:hover{
 	font-size: 16px;
 	border-radius: 50%;
   }
-  
-  .button1 {border-radius: 2px;}
-  .button2 {border-radius: 4px;}
-  .button3 {border-radius: 8px;}
-  .button4 {border-radius: 12px;}
-  .button5 {border-radius: 50%;}
-    
+
+.button:hover{
+	background-color: #2ec78f;
+	border: none;
+	color: white;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 50%;
+}
+
 .footer-blurb-item {
     padding: 30px;
     }
@@ -96,5 +105,6 @@ article:hover{
 .article-intro,
 .footer-blurb,
 .small-print {
+	font
 	text-align: center;
 	}
