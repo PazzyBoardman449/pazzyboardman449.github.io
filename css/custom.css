@@ -21,6 +21,13 @@ a{
 	color: #FFF;
 }
 
+a:hover{
+	font-size: 3vh;
+	font-weight: lighter ;
+	color: #FFF;
+	text-decoration: none;
+}
+
 	
 .feature {
 	height: 500px;
@@ -50,6 +57,30 @@ article {
 	margin: 0px;
 	display: flex;
   }
+
+article:hover{
+	background-color: #c42f27;
+}
+
+.button {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 50%;
+  }
+  
+  .button1 {border-radius: 2px;}
+  .button2 {border-radius: 4px;}
+  .button3 {border-radius: 8px;}
+  .button4 {border-radius: 12px;}
+  .button5 {border-radius: 50%;}
     
 .footer-blurb-item {
     padding: 30px;
