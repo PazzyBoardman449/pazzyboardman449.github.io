@@ -37,8 +37,9 @@ a:hover{
 
 .feature {
 	height: 500px;
-	background-color: yellowgreen;
+	background-color: black;
 	background-image: url("Images/Pazzy2.png");
+	background-repeat:no-repeat;
 	background-size: 100%;
 	color: white;
 	}
