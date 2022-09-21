@@ -62,6 +62,7 @@ a:hover{
 	font-weight: lighter ;
 	color: #FFF;
 	text-decoration: none;
+	backdrop-filter: blur(2px);
 }
 
 
@@ -172,3 +173,46 @@ img {
 	font
 	text-align: center;
 	}
+
+
+#THzRIExtraction { 
+	background-image: url("Images/THzRIExtraction.png");
+	background-size: 110% auto;
+}
+
+#ComplexRefractiveData { 
+	background-image: url("Images/ComplexRefractiveData.png");
+	background-size: 110% auto;
+}
+
+#TMMModeling { 
+	background-image: url("Images/TMMModeling.png");
+	background-size: 105% auto;
+}
+
+#SolvingDiff { 
+	background-image: url("Images/SolvingDiff.png");
+	background-size: 105% auto;
+}
+
+#ModelingCoarse{
+	background-image: url("Images/ModelingCoarse.png");
+	background-size: 103% auto;
+}
+
+.BiochemOsc{
+	background-image: url("Images/BiochemOsc.png");
+	background-size: 103% auto;
+}
+
+
+#foreground{
+	opacity: 0%;
+}
+
+#foreground:hover{
+	opacity: 100%;
+	backdrop-filter: brightness(60%) ;
+	height:100%; 
+	padding-top: 33%;
+}
