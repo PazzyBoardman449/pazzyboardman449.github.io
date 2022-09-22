@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Corporate 1a</title>
+    <title>Pazzy Boardman</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/bootstrap.min.css" rel="stylesheet"> 
 
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link href="css/custom.css" rel="stylesheet">
@@ -25,65 +27,60 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
+    
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Logo and responsive toggle -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                	<span class="glyphicon glyphicon-fire"></span> 
-                	Logo
-                </a>
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#CV">CV</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
             </div>
-            <!-- Navbar links -->
+        </div>
+    </nav>
+
+
+ <!-- Navigation -->
+
+ <!-- 
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Products</a>
+                        <a href="#">CV</a>
                     </li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-						<ul class="dropdown-menu" aria-labelledby="about-us">
-							<li><a href="#">Engage</a></li>
-							<li><a href="#">Pontificate</a></li>
-							<li><a href="#">Synergize</a></li>
-						</ul>
-					</li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
 
-				<!-- Search -->
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control">
-					</div>
-					<button type="submit" class="btn btn-default">Search</button>
-				</form>
-
             </div>
-            <!-- /.navbar-collapse -->
+           
         </div>
-        <!-- /.container -->
+        
     </nav>
+    --> 
+    
+
+
+
 
 	<div class="jumbotron feature">
-		<div class="container">
-			<h1>Pazzy Boardman</h1>
-			<p>University of Exeter first class physics graduate with an aspiration for a career in scientific coding and data analysis. </p>
-			<p><a class="btn btn-primary" href="#">Engage Now</a></p>
-		</div>
+		<h1>Pazzy Boardman</h1>
+        <div class="col-lg-12">
+            <p>University of Exeter first class physics graduate with an aspiration for a career in scientific coding and data analysis </p>
+        </div>
+		<p><a class="button" href="#projects"> ⇣ </a></p>
 	</div>
 
     <!-- Content -->
@@ -92,82 +89,182 @@
         <!-- Page Intro -->
         <div class="row page-intro">
             <div class="col-lg-12">
-                <h1>Projects </h1>
-                <p>Below are links to individual projects that I have done. Click on the project to be taken to a page with an overview of the project, the results, and a link to the my Github for the code that I used. </p>
+                <h2 id = "projects"> Projects </h2>
+                <p>Below are links to individual projects that I have done. Click on the project to be taken to a page with an overview of the project, the results, and a link to Github for an overview paper, along with the code that I used. </p>
             </div>
         </div>
         <!-- /.row -->
 
+
         <!-- Feature Row -->
         <div class="row">
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Refractive index extraction from THz radiation using peak finding</a>
-                </h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            <article class="thirdcol" id="THzRIExtraction">
+                
+
+                <a href="https://github.com/PazzyBoardman449/pazzyboardman449.github.io/tree/main/Projects/RefractiveIndexExtraction" id = "foreground"> Refractive index extraction from THz radiation using peak finding</a>
+              
             </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Fitting complex refractive index data to physical models</a>
-                </h3>
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.</p>
+            <article class="thirdcol" id="ComplexRefractiveData">
+               
+                
+                <a href="https://github.com/PazzyBoardman449/pazzyboardman449.github.io/tree/main/Projects/FittingRefractivePermittivity" id = "foreground">Fitting complex refractive index data to permittivity mixing models</a>
+                
+               
             </article>
 
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Predicting the reflection and transmission of a multilayered structure</a>
-                </h3>
-                <p>Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <article class="thirdcol" id="TMMModeling">
+                
+                
+                <a href="https://github.com/PazzyBoardman449/pazzyboardman449.github.io/tree/main/Projects/PredictingReflectionTransmission" id = "foreground">Predicting the reflection and transmission of a multilayered structure</a>
+                
+                
             </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Solving differential equations to predict viscoelastic behaviour of hydrogels</a>
-                </h3>
-                <p>Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <article class="thirdcol" id="SolvingDiff">
+                
+                <a href="https://github.com/PazzyBoardman449/pazzyboardman449.github.io/tree/main/Projects/SolvingViscoelasticHydrogels" id = "foreground">Solving differential equations to predict viscoelastic behaviour of hydrogels</a>
+                
+                
             </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Modelling coarse grained diffusion to predict morphogenesis</a>
-                </h3>
-                <p>Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <article class="thirdcol" id="ModelingCoarse">
+                
+                <a href="https://github.com/PazzyBoardman449/pazzyboardman449.github.io/tree/main/Projects/ModelingCoarseMorphogenesis" id = "foreground">Modelling coarse grained diffusion to predict morphogenesis</a>
+                
             </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Solving differential equations to predict the dynamics of biochemical oscillators</a>
-                </h3>
-                <p>Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <article class="thirdcol" id="BiochemOsc">
+                    
+                <a href="https://github.com/PazzyBoardman449/pazzyboardman449.github.io/tree/main/Projects/SolvingBiochemicalOscillators" id = "foreground"> Solving differential equations to predict the dynamics of biochemical oscillators </a>
+
             </article>
+    
+                
+        </div>
+        <!-- /.row -->
+
+         <!-- Page Intro -->
+         <div class="row page-intro">
+            <div class="col-lg-12">
+                <h2 id = "CV"> CV </h2>
+                <h3> Relevant Work Experience</h3>
+                <ul>
+                    <li> <h4 class = "exp"> Sep 2021 - June 2022: Postgraduate Researcher, University of Exeter </h4> 
+                        <br> 
+                        <p>  Relevant Skills: <em> Researching, Data Analysis (R, Excel), Modelling (Julia, MATLAB, Python), Lab work, Problem solving, Presentation.
+                            Type of Experience: Full time. </em>
+                            </p>
+                        <br> 
+                        <p>  Employer: <em> College of Engineering, Mathematics and Physical Sciences at the University of Exeter </em>
+                            </p>
+                        <br>
+                        <p>  Type of Experience: <em> Full Time </em>
+                        </p>
+                    </li>
+
+                    <br> 
+
+                    <li> <h4 class = "exp"> Apr 2020 - Nov 2020: iGEM 2020 Team Member </h4> 
+                        <br> 
+                        <p>  Relevant Skills: <em> Computational modelling (MATLAB, Python, Julia), Web development (HTML, CSS), Team work, Working remotely under COVID conditions.  </em>
+                            </p>
+                        <br> 
+                        <p>  Employer: <em>BioEconomy center at the University of Exeter </em>
+                            </p>
+                            <br>
+                        <p>  Type of Experience: <em> : Full time summer placement </em>
+                        </p>
+                        <br>
+                    </li>
+
+                    <li> <h4 class = "exp"> Jun 2016 - Aug 2017: Website and Graphic Designer </h4> 
+                        <br> 
+                        <p>  Relevant Skills: <em> Web Development (HTML, CSS, JavaScript), Design software (Adobe Illustrator, Photoshop), Innovation, Deadline management, Direct client communication.  </em>
+                            </p>
+                        <br> 
+                        <p>  Employer: <em>BioEconomy center at the University of Exeter </em>
+                            </p>
+                            <br>
+                        <p>  Type of Experience: <em> Flexible Part Time </em>
+                        </p>
+                        <br>
+                    </li>
+                  </ul>
+                <h3> Relevant Skills and Qualifications</h3>
+                <ul>
+                <li> <h4 class = "qua"> Sep 2017 - Jun 2021: First Class Master's Degree in Physics (MPhys) </h5> 
+                    <br> 
+                    <p>  Institution: <em> University of Exeter </em>
+                        </p>
+                    <br> 
+                </li>
+                <li> <h4 class = "qua"> Aug 2022: Udemy Course: "2022 Complete Python Bootcamp From Zero to Hero"</h5> 
+                    <br> 
+                    <p>
+                       View certificate <a class  = "body" href = "#""> here</a>
+                    </p>
+                    
+                    <br> 
+                </li>
+                <li> <h4 class = "qua"> Jul 2021: Udemy Course: "R Basics - R Programming Language Introduction"</h5> 
+                    <br> 
+                    <p>
+                        View certificate <a class  = "body" href = "#""> here</a>
+                    </p>
+                    
+                    <br> 
+                </li>
+                <li> <h4 class = "qua">Other Relevant Skills</h5> 
+                    <br> 
+                    <p>
+                        Julia, MATLAB, HTML, CSS, JavaScript, C
+                    </p>
+                    
+                    <br> 
+                </li>
+                </ul>
+                <p> For a more detailed CV with complete employment history see <a class  = "body" href = "#""> here</a> </p>
+            </div>
         </div>
         <!-- /.row -->
 
     </div>
     <!-- /.container -->
+
+    <div class="row page-intro">
+
+        <h2> About Me</h2>
+       
+        <div class="row">
+
+            <div class="halfcol">
+                
+                <img src="css/Images/PazzyColour.jpeg">
+            </div>
+
+            <div class="halfcol">
+                <br>
+                <p> I'm a physics graduate with a keen enthusast for science and its application to the real world. Growing up in the south west of the UK, I always had a passion for learning more about the universe. Studying physics at university was an empowering experience, in which I learned many invaluable skills which I am super excited to apply venturing into the world. </p>
+                <br>
+                <p>
+                    Outside of my physics, I enjoy many hobies such as graphic design, youtube teaching, music writing, and having in depth geeky conversations about fictional lore. I'm currently in a rock band dreaming of performing live one day!
+                </p>
+                <br>
+                If you wish to make an enquiry, email me <a class  = "body" href = "#""> here</a>.
+            </div>
+
+            <br>
+
+            <p><a class="button" href="#"> ⇡ </a></p>
+
+      </div>
+
 	
 	<footer>
 		
         
         <div class="small-print">
         	<div class="container">
-        		<p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
-        		<p>Copyright &copy; Example.com 2015 </p>
+        		<a class = "body" href="#">Terms &amp; Conditions</a> | <a class = "body" href="#">Privacy Policy</a> | <a class = "body" href="#">Privacy Policy</a>
+                <br>
+        		<p>Copyright &copy; PatricBoardman.github.io 2022 </p>
         	</div>
         </div>
 	</footer>

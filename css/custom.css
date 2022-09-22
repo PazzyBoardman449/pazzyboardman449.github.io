@@ -1,19 +1,90 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	padding-top: 50px;
-	color: #959595;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
 	}
+
 	
 h1, h2, h3, h4, h5, h6 {
-	color: black;
+	color: #FFF;
 	}
-	
+
+h1{
+	font-weight: bold ;
+}
+
+h3{
+	text-align:center ;
+	margin-bottom: 5%;
+}
+
+h4.exp{
+	color: #2ec78f;
+}
+
+h4.qua{
+	color: #E8AF41;
+}
+
+.halfcol {
+	text-align: left;
+    width: 50%;
+	padding: 1%;
+	padding-left: 30px;
+	float: left;
+  }
+
+.thirdcol {
+    width: 33.33%;
+	padding: 0%;
+	float: left;
+  }
+
+a{	
+	font-size: 2vw;
+	font-weight: lighter ;
+	color: #FFF;
+	margin: auto;
+}
+
+a.body{
+	font-size:small;
+}
+
+a.body:hover{
+	font-size:small;
+	color: #2ec78f;
+}
+
+a:hover{
+	font-weight: lighter ;
+	color: #FFF;
+	text-decoration: none;
+	backdrop-filter: blur(2px);
+}
+
+
 .feature {
-	background-color: yellowgreen;
-	color: greenyellow;
+	height: 500px;
+	background-color: black;
+	background-image: url("Images/Pazzy2.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	color: white;
 	}
+
+li{
+	text-align: left;
+}
 	
 .article-intro {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .footer-blurb {
@@ -21,14 +92,81 @@ h1, h2, h3, h4, h5, h6 {
     background-color: goldenrod;
     color: black;
 }
-    
+
+article {
+	background-color: #9D1F18;
+	text-align: center;
+	height: 32vw;
+	width: 32vw;
+	border: 10px solid black;
+	margin: 0px;
+	display: flex;
+  }
+
+article:hover{
+	background-color: #c42f27;
+}
+
+.button {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 50%;
+  }
+
+.button:hover{
+	background-color: #2ec78f;
+	border: none;
+	color: white;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 50%;
+}
+
+.navbar{
+	margin: auto;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+.navbar a{
+	float: none;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
 .footer-blurb-item {
     padding: 30px;
     }
  
 .small-print {
-	background-color: #fff;
+	background-color: rgb(40, 40, 40);
 	padding: 30px 0;
+}
+
+.aboutme{
+	color: #04AA6D;
+	background-color: #9D1F18;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .feature,
@@ -36,5 +174,49 @@ h1, h2, h3, h4, h5, h6 {
 .article-intro,
 .footer-blurb,
 .small-print {
+	font
 	text-align: center;
 	}
+
+
+#THzRIExtraction { 
+	background-image: url("Images/THzRIExtraction.png");
+	background-size: 110% auto;
+}
+
+#ComplexRefractiveData { 
+	background-image: url("Images/ComplexRefractiveData.png");
+	background-size: 110% auto;
+}
+
+#TMMModeling { 
+	background-image: url("Images/TMMModeling.png");
+	background-size: 105% auto;
+}
+
+#SolvingDiff { 
+	background-image: url("Images/SolvingDiff.png");
+	background-size: 105% auto;
+}
+
+#ModelingCoarse{
+	background-image: url("Images/ModelingCoarse.png");
+	background-size: 103% auto;
+}
+
+#BiochemOsc{
+	background-image: url("Images/BiochemOsc.png");
+	background-size: 103% auto;
+}
+
+
+#foreground{
+	opacity: 100%;
+}
+
+#foreground:hover{
+	opacity: 100%;
+	backdrop-filter: brightness(60%) ;
+	height:100%; 
+	padding-top: 33%;
+}
