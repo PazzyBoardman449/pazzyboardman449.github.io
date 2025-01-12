@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 html{
 	scroll-behavior: smooth;
@@ -5,7 +6,7 @@ html{
 
 
 body {
-	font-family: "Minion Pro", Helvetica, Arial, sans-serif;
+	font-family: "Crimson Text", Helvetica, Arial, sans-serif;
 	padding-top: 50px;
 	color: #FFF;
 	background-color: #000;
@@ -233,3 +234,40 @@ img {
     font-family: 'Minion Pro'; /*a name to be used later*/
     src: url('/Users/patricboardman/Documents/GitHub/pazzyboardman449.github.io/css/Fonts/minion-pro'); /*URL to font*/
 }
+
+.crimson-text-regular {
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .crimson-text-semibold {
+	font-family: "Crimson Text", serif;
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+  .crimson-text-bold {
+	font-family: "Crimson Text", serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .crimson-text-regular-italic {
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  
+  .crimson-text-semibold-italic {
+	font-family: "Crimson Text", serif;
+	font-weight: 600;
+	font-style: italic;
+  }
+  
+  .crimson-text-bold-italic {
+	font-family: "Crimson Text", serif;
+	font-weight: 700;
+	font-style: italic;
+  }
+  
