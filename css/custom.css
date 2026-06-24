@@ -24,6 +24,7 @@ h1{
 
 h2{
 	font-weight: light ;
+	text-align: center ;
 }
 
 h3{
@@ -55,9 +56,15 @@ h4.qua{
   }
 
 a{	
-	font-size: 2vw;
 	font-weight: lighter ;
 	color: #FFF;
+	margin: auto;
+}
+
+a.pub{
+	font-weight: lighter ;
+	color: #2ec78f;
+	text-align: left;
 	margin: auto;
 }
 
