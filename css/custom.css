@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
 	font-weight: medium ;
+	color: #000;
 }
 
 h2{
@@ -87,11 +88,12 @@ a:hover{
 
 .feature {
 	height: 500px;
-	background-color: black;
-	background-image: url("Images/Pazzy2.png");
+	background-color: rgb(0, 0, 0);
+	background-image: url("Images/Pazzy.jpeg");
+	background-blend-mode:lighten;
 	background-repeat:no-repeat;
 	background-size: 100%;
-	color: white;
+	color: rgb(0, 0, 0);
 	}
 
 li{
@@ -123,9 +125,10 @@ article:hover{
 }
 
 .button {
-	background-color: #04AA6D;
+	background-color: #ffffff;
+	opacity: 0.9;
 	border: none;
-	color: white;
+	color: rgb(0, 0, 0);
 	padding: 10px;
 	padding-left: 16px;
 	padding-right: 16px;
@@ -137,7 +140,7 @@ article:hover{
   }
 
 .button:hover{
-	background-color: #2ec78f;
+	background-color: #a2a2a2;
 	border: none;
 	color: white;
 	padding: 10px;
@@ -193,6 +196,10 @@ img {
 	text-align: center;
 	}
 
+#EmergentConstraints { 
+	background-image: url("Images/EmergentConstraints.png");
+	background-size: 100% auto;
+}
 
 #THzRIExtraction { 
 	background-image: url("Images/THzRIExtraction.png");
