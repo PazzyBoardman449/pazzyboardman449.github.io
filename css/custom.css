@@ -177,6 +177,15 @@ article:hover{
 	padding: 30px 0;
 }
 
+.pubs {
+	background-color: #000000; 
+  background-image: url("Images/06-blackpaper.png"); 
+  background-size: 100%;
+  opacity: 100%;
+  width: 100%;
+  text-align: center;
+}
+
 .aboutme{
 	color: #04AA6D;
 	background-color: #9D1F18;
